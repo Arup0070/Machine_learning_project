@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup,find_packages
 from typing import List
 
 # Declaring variables for setup function
@@ -17,13 +17,13 @@ def get_requirements_list()->List[str]:
     mention in requirements.txt 
     '''
     with open(Requirement_file_name) as requirement:
-        return requirement.readlines()
+        return requirement.readlines().remove("-e .")
 setup(
     name=Name,
     version=version,
     author=Author,
     description=Description,
-    packages= Packages,
+    packages= find_packages(),#Packages,
     install_requires=get_requirements_list()
 
 )
