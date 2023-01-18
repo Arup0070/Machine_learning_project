@@ -4,7 +4,7 @@ from typing import List
 # Declaring variables for setup function
 Project_name="housing-predictor"
 Name="housing-predictor"
-version="0.0.1"
+version="0.0.2"
 Author="Arup"
 Description="This is the 1st ML project"
 Packages= ["Housing"]
