@@ -6,8 +6,8 @@ Project_name="housing-predictor"
 Name="housing-predictor"
 version="0.0.2"
 Author="Arup"
-Description="This is the 1st ML project"
-Packages= ["Housing"]
+Description="This is the 1st FSDS project"
+Packages= ["housing"]
 Requirement_file_name = "requirements.txt"
 
 
